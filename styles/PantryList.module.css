@@ -1,0 +1,21 @@
+.list {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.itemName {
+  flex: 1;
+}
+
+.button {
+  margin-left: 0.5rem;
+}
